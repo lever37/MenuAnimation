@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Размеры кнопок -->
+    <dimen name="button_width">75dp</dimen>
+    <dimen name="button_height">75dp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="icon_padding">5dp</dimen>
+</resources>

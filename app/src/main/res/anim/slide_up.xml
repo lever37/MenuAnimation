@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="100"
+        android:fromYDelta="100%p"
+        android:toYDelta="0%p" />
+
+    <!-- Изменяем интерполятор для более неравномерного движения -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="50%p"
+        android:toYDelta="0%p"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+</set>
